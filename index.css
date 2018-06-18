@@ -158,7 +158,7 @@ h1, h2{
     color: pink;
 }
 
-div p {
+div+p {
     font-size: 20px;
 }
 .backpic {
@@ -167,7 +167,115 @@ div p {
 .backpic>h1,p{
     color: white;
 }
-
+/* 
+CSS Position
+ID	Skill
+25C-1	relative
+25C-2	absolute
+25C-3	fixed
+*/
 #positioning {
-    
+    width: 98%;
+    height: 600px;
+    border: 2px solid purple;
+}
+#positioning {
+    width: 98%;
+    height: 600px;
+    border: 2px solid purple;
+}
+#positioningInner {
+    width: 60%;
+    height: 100px;
+    border: 2px solid gray;
+    position: relative;
+}
+#positioningInner2 {
+    width: 60%;
+    height: 100px;
+    border: 2px solid pink;
+    position: absolute;
+}
+#positioningInner3 {
+    width: 60%;
+    height: 20px;
+    bottom: 0;
+    border: 2px solid blue;
+    position: fixed;
+}
+
+/* 
+CSS Box Model
+ID	Skill
+24C	margin
+24D	border
+24E	padding
+24F	box-sizing */
+
+#marg {
+ /* background: red; */
+ height: 50px;
+ width: 50px;
+ border: 2px solid ghostwhite;
+ margin: 5px;
+}
+#bord {
+
+    height: 45px;
+    width: 45px;
+    border: 2px solid goldenrod;
+    /* background: darkred; */
+}
+#padd {
+    padding: 5px;
+    border: 2px solid palegreen;
+    height: 40px;
+    width: 40px;
+    padding: 50px;
+    /* background: darkblue; */
+}
+#boxSiz {
+    border: 2px solid blue;
+    height: 30px;
+    width: 30px;
+    box-sizing: content-box;
+}
+
+#positioning5 {
+    width: 98%;
+    height: 300px;
+    border: 2px solid pink;
+}
+/* 
+Display Float
+ID	Skill
+25D	float
+25F	display
+*/
+
+
+#floatleft {
+    float: left;
+}
+#floatR {
+    float: right;
+}
+#floatI {
+    float: inherit;
+}
+#floatN {
+    float: none;
+}
+
+#dis{
+    display: inline;
+}
+#dis2{
+    display: inline-block;
+}
+#dis3{
+    display: block;
+}
+#dis4{
+    display: none;
 }
