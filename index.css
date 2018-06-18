@@ -1,0 +1,173 @@
+body {
+    background: limegreen;
+}
+
+#resizeVideo {
+    width: 50%;
+}
+/* 
+CSS Selectors
+ID	Skill
+22C-1	#
+ */
+#resizePic {
+    width: 100px;
+}
+/* 
+CSS Selectors
+ID	Skill
+22C-2	.
+*/
+.audiobar {
+    width: 80%;
+}
+
+/* 
+FANCY EFFECTS
+ID	Skill
+30C	box-shadow
+30D	gradients
+30E	text effects
+*/
+
+.blockStyle {
+    display: grid;
+    box-shadow: 5px 5px 10px white;
+    background: linear-gradient(to left, green,limegreen, lime, pink);
+}
+/* 
+CSS Selectors
+ID	Skill
+22C-4	>
+ */
+.blockStyle>h1{
+    text-shadow: 1px 2px white;
+
+}
+.grid-container {
+    display: grid;
+    grid-column-gap: 200px;
+  }
+
+.flex1 {
+    display: flex;
+    height: 50px;
+    width: 60%;
+    align-items: center;
+    border: 1px solid black;
+    justify-content: space-around;
+}
+
+/* 
+Media Queries
+ID	Skill
+29C	media queries
+29D	media types
+*/
+
+@media (min-width: 400px) {
+    .flex1{
+        color: orange;
+    }
+}
+
+@media all{
+    footer{
+    background: white;
+    }
+}
+
+.flex2{
+    display: flex;
+    height: 50px;
+    width: 40%;
+    flex-direction: column;
+    border: 1px solid black;
+}
+.flex3 {
+    display: flex;
+    height: 200px;
+    width: 30%;
+    align-items: center;
+    border: 1px solid black;
+    flex-wrap: wrap;
+}
+.psuedoselect1 {
+    color: yellow;
+}
+.psuedoselect1:hover {
+    color: purple;
+}
+.psuedoselect2 {
+    color: red;
+}
+.psuedoselect2:focus {
+    opacity: 0.4;
+}
+.psuedoselect3 {
+    color: gray;
+}
+.psuedoselect4 {
+    color: black;
+}
+
+
+
+/* 
+ This criterion is linked to a Learning Outcome ➕CSS - Pseudo selectors
+ID	Skill
+26E	disabled
+26G	focus
+26H	hover
+26L	nth-child
+*/
+
+
+.but:hover {
+    background: lime;
+}
+.but:disabled{
+    color: purple;
+}
+.but:focus {
+    border: none;
+}
+.tex:focus {
+    width: 200px;
+    background: purple;
+}
+li:nth-child(3) {
+    color: red;
+}
+
+.selectingstuff {
+    color: purple;
+}
+ /* 
+Font/Background
+23D-1	font-weight
+23D-2	color
+23D-3	font-size
+23E	background-color
+23F	background-image
+ */
+h1, h2{
+    background-color: yellow;
+    font-weight: bolder;
+    font-size: 70px;
+    color: pink;
+}
+
+div p {
+    font-size: 20px;
+}
+.backpic {
+    background-image: url(https://http.cat/423);
+}
+.backpic>h1,p{
+    color: white;
+}
+
+#positioning {
+    
+}
